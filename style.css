@@ -1,0 +1,119 @@
+/* Reset some defaults */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color:green;
+  color: #333;
+}
+marquee{
+    color: black;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color:royalblue;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: clip;
+  text-decoration: wavy;
+  border-bottom: 4px solid #27ae60;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #27ae60;
+}
+
+/* Sections */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* Sermons */
+.sermon {
+  margin: 15px 0;
+  padding: 15px;
+  border-left: 4px solid #27ae60;
+  background: #f0fdf4;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+}
+
+button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #219150;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2c3e50;
+  color: white;
+  margin-top: 20px;
+}
